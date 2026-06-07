@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposer un co-voiturage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/conducteur.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/Logo Deezer Mobilité.png" alt="Logo Deezer Mobilité" class="logo-img">
+        </div>
+        <nav>
+            <a href="index.html" class="nav-link">Accueil</a>
+            <a href="nous contacter.html" class="nav-link">Nous contacter</a>
+            <a href="conducteur.html" class="btn btn-blanc">Conducteur</a>
+            <a href="passager.html" class="btn btn-violet">Passager</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="formulaire">
+            <h1>Proposer un co-voiturage</h1>
+            
+            <form action="#" method="post">
+                <div class="position-formulaire">
+                    
+                    <div class="cellule">
+                        <label for="nom">Nom</label>
+                        <input type="text" id="nom" name="nom" placeholder="(champs à remplir)">
+                    </div>
+
+                    <div class="cellule">
+                        <label for="prenom">Prénom</label>
+                        <input type="text" id="prenom" name="prenom" placeholder="(champs à remplir)">
+                    </div>
+
+                    <div class="cellule">
+                        <label for="genre">Genre</label>
+                        <select id="genre" name="genre">
+                            <option value="femme">Femme</option>
+                            <option value="homme">Homme</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+
+                    <div class="cellule">
+                        <label for="telephone">Numéro de téléphone</label>
+                        <input type="tel" id="telephone" name="telephone" placeholder="(champs à remplir)">
+                    </div>
+
+                    <div class="cellule">
+                        <label for="lieu">Lieu de rencontre</label>
+                        <input type="text" id="lieu" name="lieu" placeholder="(champs à remplir)">
+                    </div>
+
+                    <div class="cellule">
+                        <label for="destination">Destination</label>
+                        <input type="text" id="destination" name="destination" placeholder="(champs à remplir)">
+                    </div>
+
+                    <div class="cellule">
+                        <label for="date">Date</label>
+                        <input type="text" id="date" name="date" placeholder="(champs à remplir)" onfocus="(this.type='date')" onblur="(this.value==''?this.type='text':this.type='date')">
+                    </div>
+
+                    <div class="cellule">
+                        <label for="pays">Pays</label>
+                        <select id="pays" name="pays">
+                            <option value="france">France</option>
+                            <option value="royaume-uni">Royaume-Uni</option>
+                            <option value="allemagne">Allemagne</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="soumettre">
+                    <button type="submit" class="btn-submit">Soumettre votre proposition</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    
+    <footer>
+        <div>© 2023 Deezer Mobilité</div>
+        <a href="https://www.deezer.com/legal/personal-datas">RGPD & données personnelles</a>
+    </footer>
+</body>
+</html>

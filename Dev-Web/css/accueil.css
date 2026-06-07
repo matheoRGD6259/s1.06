@@ -1,0 +1,53 @@
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section-titre {
+    padding: 25px 80px;
+    margin-bottom: 80px;
+    max-width: 900px;
+}
+
+.section-titre h1 {
+    font-size: 7em;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 0.9;
+    max-width: 900px;
+    letter-spacing: -2px;
+    color: #000000;
+}
+
+.sous-titre {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.texte-projet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    width: 100%;
+    text-align: left;
+    max-width: 1000px;
+}
+
+.paragraphe h2 {
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #A238FF; 
+}
+
+.paragraphe p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.7;
+}

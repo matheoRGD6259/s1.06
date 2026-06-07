@@ -1,0 +1,61 @@
+main{
+    padding-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+.nom {
+    font-weight: bold;
+    display: block;   
+}
+
+.genre {
+    font-size: 0.85em;    
+    display: block;
+    margin-top: 2px;
+}
+
+table {
+    margin:auto ;
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 1cm;
+    text-align: center;
+}
+
+thead tr td {
+    font-size: 32px;      
+    font-weight: bolder;    
+    padding-bottom: 20px; 
+    color: black;    
+}
+
+
+td {
+    font-size: 19px;     
+    padding: 15px 10px;
+}
+
+td a {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background-color:#E6E6E6;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+
+}
+
+td a:hover{
+background-color: wheat;
+transition: background-color 0.3s;
+
+}
